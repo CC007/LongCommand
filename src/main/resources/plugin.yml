@@ -1,0 +1,22 @@
+name: LongCommand
+version: 1.0.0
+main: com.github.cc007.longcommand.LongCommandPlugin
+author: Rik Schaaf aka CC007 (http://coolcat007.nl/)
+description: >
+             Makes it possible to send commands from a user that are longer then the max character count
+commands:
+    lci:
+        description: "create a new command"
+        aliases: [longcommandinit]
+    lc:
+        description: "append to the created command"
+        aliases: [longcommand]
+    lcas:
+        description: "append a space to the created command"
+        aliases: [longcommandaddspace]
+    lcc:
+        description: "remove the created command"
+        aliases: [longcommandclear]
+    lcs:
+        description: "send the created command"
+        aliases: [longcommandsend]
